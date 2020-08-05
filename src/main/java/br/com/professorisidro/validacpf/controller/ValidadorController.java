@@ -17,6 +17,12 @@ public class ValidadorController {
 			return "{\"status\": \"valido\"}";
 		}
 		 return "{\"status\": \"invalido\"}";
+
+		 
 	}
+
+	@GetMapping("/")
+	public String index() {
+			 return "{\"Mensagem\": \"Bem Vindo\"}";
 
 }
