@@ -24,5 +24,7 @@ public class ValidadorController {
 	@GetMapping("/")
 	public String index() {
 			 return "{\"Mensagem\": \"Bem Vindo\"}";
+			
+	}
 
 }
